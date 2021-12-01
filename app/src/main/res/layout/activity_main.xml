@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="10sp"
+    android:paddingVertical="20sp"
+    android:background="#444">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palinka felvetele"
+        android:backgroundTint="#5BB"
+        android:id="@+id/btnPalinkaFelvetele"
+        android:paddingVertical="10sp"
+        android:layout_marginBottom="10sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palinka keresese"
+        android:backgroundTint="#193"
+        android:id="@+id/btnPalinkaKeresese"
+        android:paddingVertical="10sp"
+        android:layout_marginBottom="10sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palinka listazasa"
+        android:backgroundTint="#C70"
+        android:id="@+id/btnPalinkaListazasa"
+        android:paddingVertical="10sp"
+        android:layout_marginBottom="10sp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"/>
+
+</LinearLayout>

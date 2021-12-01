@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="10sp"
+    android:paddingVertical="20sp"
+    android:background="#444">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fozo"
+        android:padding="15sp"
+        android:textColorHint="#888"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/fozoET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gyumolcs"
+        android:padding="15sp"
+        android:textColorHint="#888"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/gyumolcsET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alkohol"
+        android:padding="15sp"
+        android:textColorHint="#888"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/alkoholET"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vissza"
+            android:backgroundTint="#B32"
+            android:id="@+id/btnVisszaAtFelvetel"
+            android:paddingVertical="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Felvetel"
+            android:backgroundTint="#193"
+            android:id="@+id/btnFelvetelAtFelvetel"
+            android:paddingVertical="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
